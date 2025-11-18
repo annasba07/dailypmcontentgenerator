@@ -1,0 +1,4 @@
+anthropic>=0.39.0
+atoma>=0.0.17
+requests>=2.31.0
+python-dateutil>=2.8.2
