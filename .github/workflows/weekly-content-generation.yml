@@ -33,6 +33,7 @@ jobs:
       - name: Generate weekly content
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DIGEST_STYLE: ${{ secrets.DIGEST_STYLE || 'comprehensive' }}
         run: |
           python main.py
 
